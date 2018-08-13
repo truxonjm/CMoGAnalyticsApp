@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  cmoganalyticsapp:
-    image: ${DOCKER_REGISTRY}cmoganalyticsapp
-    build:
-      context: .\CMoGAnalyticsApp
-      dockerfile: Dockerfile
